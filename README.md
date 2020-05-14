@@ -1,6 +1,14 @@
 # JPEG_Toolbox_Matlab
 The most detailed matlab version of the jpeg toolbox code and how to use it.
 
+# Quick start
+
+please run "read_jpeg.m"
+
+# More details and contact me
+
+https://blog.csdn.net/Harbour_zhang/article/details/106038087
+
 Matlab JPEG Toolbox
 ===================
 
