@@ -1,5 +1,17 @@
+# JPEG_Toolbox_Matlab
+The most detailed matlab version of the jpeg toolbox code and how to use it.
+
+# Quick start
+
+please run "read_jpeg.m"
+
+# More details and contact me
+
+https://blog.csdn.net/Harbour_zhang/article/details/106038087
+
 Matlab JPEG Toolbox
 ===================
+
 This distribution contains routines for manipulating files formatted
 according to the Joint Photographic Experts Group (JPEG) standard.
 Matlab's built-in IMREAD and IMWRITE functions provide basic
@@ -26,6 +38,7 @@ Phil Sallee 9/2003  <sallee@cs.ucdavis.edu>
 
 Copyright Notice
 ================
+
 Copyright (c) 2003 The Regents of the University of California. 
 All Rights Reserved. 
 
@@ -61,6 +74,7 @@ MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
 Installing
 ==========
+
 Copy all of the files into a new directory.  Add this directory to the
 Matlab startup path, if desired.  Compile the MEX routines, if
 necessary.
@@ -91,6 +105,7 @@ saved as libjpeg.a or libjpeg.lib depending on the operating system.
 
 Files contained in this distribution
 ====================================
+
 README
 bdct.m
 bdctmtx.m
@@ -110,6 +125,7 @@ vec2im.m
 
 Matlab Functions
 ================
+
 The following Matlab functions are included in this distribution:
 
 jpeg_read     	Read a JPEG file into a JPEG object struct
@@ -135,6 +151,7 @@ bitpack       	Repack array of bits into an array of bytes, or vice versa
 
 Release Notes
 =============
+
  9/08/03  v1.0  Initial release
  9/24/03  v1.1  Fixed problem with bdct/ibdct and non-square images
  9/25/03  v1.2  Corrected warnings in jpeg_read/jpeg_write
@@ -147,6 +164,7 @@ Release Notes
 
 Documentation
 =============
+
 Type 'help <command>' for documentation on a specific function.  At
 this point, relatively little documentation is provided.  The tools
 are simple, however.  The jpeg_read, and jpeg_write routines convert
